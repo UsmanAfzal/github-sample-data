@@ -1,0 +1,17 @@
+{
+  "name": "parliamentuk-pugin-composition",
+  "version": "0.0.1",
+  "description": "UK Parliament Bootstrap Node Application",
+  "author": "UK Parliament",
+  "license": "MIT",
+  "engines": {
+    "node": "7.x"
+  },
+  "scripts": {
+    "start": "make serve"
+  },
+  "devDependencies": {
+    "express": "^4.15.4",
+    "parliamentuk-pugin": "git+https://github.com/ukparliament/parliament.uk-pugin.git#1.6.2"
+  }
+}
